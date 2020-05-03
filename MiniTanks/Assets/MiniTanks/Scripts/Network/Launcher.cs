@@ -26,7 +26,6 @@ public class Launcher : MonoBehaviourPunCallbacks
     private string m_PlayerName = "";
     private string m_RoomName = "";
 
-
     private void Awake()
     {
         PhotonNetwork.AutomaticallySyncScene = true;
